@@ -1,0 +1,98 @@
+
+
+h1{
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+}
+p{
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+aside{
+    font-size: 21px;
+    font-family: 'Architects Daughter', cursive;
+    float: right;
+    border-style: dashed;
+    margin: 10px;
+    padding: 10px 0px 130px 2px;
+    content:none;
+    background-color: khaki;
+    border-color: rgb(223, 208, 74);      
+}
+main{
+     border-color:rgb(223, 208, 74);  
+     background-color:khaki;
+     float:left;
+     border-style: solid;
+     padding: 25px 0px 10px 35px; 
+     margin: 10px;   
+}
+header{
+    background-color: khaki;
+    border-color: rgb(223, 208, 74);
+    margin: 25px;  
+    border-style: double;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    float: right;
+}
+
+.nave{
+    background-color:khaki;
+    margin-left: 10px;
+    border-color: rgb(223, 208, 74);    
+    border-style: double;
+    padding-bottom: 10px;
+}
+
+.HOME:hover{
+    background-color:rgb(240, 223, 70);
+}
+
+.OTROS:hover{
+    background-color: rgb(240, 223, 70);
+}
+
+.HOME{
+     margin:10px;
+     display: inline;
+     padding-bottom:10px;
+     
+}
+
+.OTROS{
+    margin:10px;
+    display: inline;
+    padding-bottom: 10px;
+}
+.HOME:active{
+    border-style: double;
+    border-color: rgb(180, 170, 24);
+}
+.OTROS:active{
+    border-style:double;
+    border-color: rgb(180, 170, 24);
+}
+.card{
+      float: left;
+}
+
+.container{
+    display: block;
+}
+.fa-bars{
+    color: orange;
+}
